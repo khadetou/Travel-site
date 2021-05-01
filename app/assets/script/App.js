@@ -1,2 +1,4 @@
 import '../style/style.css';
-console.log('Hello world!!');
+if(module.hot){
+    module.hot.accept();
+}
